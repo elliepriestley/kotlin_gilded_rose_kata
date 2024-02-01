@@ -42,71 +42,71 @@ Just for clarification, an item can never have its Quality increase above 50, ho
 
 ## IntelliJ Shortcuts
 
-    Alt I – Up
-    Alt J – Previous word
-    Alt K – Down
-    Alt L – Next word
-    Alt U – Line start
-    Alt O – Line end
-    Alt N – Left
-    Alt M – Right
+    Fn + Up Arrow – Up
+    Option + Left Arrow – Previous word
+    Fn + Down Arrow – Down
+    Option + Right Arrow – Next word
+    Command + Left Arrow – Line start
+    Command + Right Arrow – Line end
+    Left Arrow – Left
+    Right Arrow – Right
 
-    Alt Shift I – Up with selection
-    Alt Shift J – Previous word with selection
-    Alt Shift K – Down with selection
-    Alt Shift L – Next word with selection
-    Alt Shift U – Line start with selection
-    Alt Shift O – Line end with selection
-    Alt Shift N – Left with selection
-    Alt Shift M – Right with selection
+    Shift + Command + Up Arrow – Up with selection
+    Shift + Option + Left Arrow – Previous word with selection
+    Shift + Command + Down Arrow – Down with selection
+    Shift + Option + Right Arrow – Next word with selection
+    Shift + Command + Left Arrow – Line start with selection
+    Shift + Command + Right Arrow – Line end with selection
+    Shift + Left Arrow – Left with selection
+    Shift + Right Arrow – Right with selection
 
-    Alt , – Previous method
-    Alt . – Next method
-    Alt F – Page down
-    Alt W – Page up
-    Alt B – Back
-    Alt Shift B – Forward
-    Alt H – Jump to source
+    Option + Up Arrow – Previous method
+    Option + Down Arrow – Next method
+    Fn + Down Arrow – Page down
+    Fn + Up Arrow – Page up
+    Command + Minus – Back
+    Command + Plus – Forward
+    Command + B – Jump to source
 
-    Alt A – Highlight usages in file
-    Alt S – Show usages
-    Alt E – Expand selection
-    Alt / – Cycle expand word
-    Alt ; – Delete
-    Alt R – Rename
-    Alt Shift 8 – Put parameters on one line
-    Alt Shift 9 – Put parameters on separate lines
+    Command + F7 – Highlight usages in file
+    Command + F7 – Show usages
+    Option + Up Arrow – Expand selection
+    Option + Down Arrow – Cycle expand word
+    Backspace – Delete
+    Shift + F6 – Rename
+    Command + Shift + Y – Put parameters on one line
+    Command + Y – Put parameters on separate lines
 
-    Cmd - – Collapse
-    Cmd = – Expand
-    Cmd Alt - – Collapse recursively
-    Cmd Alt = – Expand recursively
-    Cmd Shift - – Collapse all
-    Cmd Shift = – Expand all
+    Command + - – Collapse
+    Command + + – Expand
+    Command + Option + - – Collapse recursively
+    Command + Option + + – Expand recursively
+    Command + Shift + - – Collapse all
+    Command + Shift + + – Expand all
 
-    Cmd Alt V – Introduce variable
-    Cmd Alt P – Introduce parameter
-    Cmd Alt M – Extract method
-    Cmd Alt N – Inline
-    Cmd Alt L – Reformat code
-    Ctrl Shift J – Join lines
+    Command + Option + V – Introduce variable
+    Command + Option + P – Introduce parameter
+    Command + Option + M – Extract method
+    Command + Option + N – Inline
+    Command + Option + L – Reformat code
+    Control + Shift + J – Join lines
 
-    Cmd M – Scroll to center
-    Cmd Alt Shift I – Move statement up
-    Cmd Alt Shift K – Move statement down
-    Cmd Shift 8 – Column selection mode
-    Cmd Shift A – Find action
-    Cmd K – Commit
-    Cmd S – Limited WIP | Commit without dialog
+    Command + M – Scroll to center
+    Command + Option + Shift + Up Arrow – Move statement up
+    Command + Option + Shift + Down Arrow – Move statement down
+    Shift + Option + 8 – Column selection mode
+    Command + Shift + A – Find action
+    Command + K – Commit
+    Command + S – Limited WIP | Commit without dialog
 
-    Ctrl Tab – Switcher
-    Ctrl G – Add selection for next occurrence
-    Ctrl B – Git | Branches
-    Ctrl Cmd H – Notifications | Close first
-    Ctrl V – VCS operations popup
-    Ctrl Shift P – Show type info
-    Shift Enter – Start new line
-    Shift Escape – Hide active tool window
+    Command + Tab – Switcher
+    Command + G – Add selection for next occurrence
+    Command + B – Git | Branches
+    Command + Option + H – Notifications | Close first
+    Command + V – VCS operations popup
+    Command + Shift + P – Show type info
+    Return – Start new line
+    Escape – Hide active tool window
 
-    Shift F10 – Run
-    Alt Shift F10 – Run... (popup)
+    Shift + F10 – Run
+    Control + Shift + F10 – Run... (popup)
