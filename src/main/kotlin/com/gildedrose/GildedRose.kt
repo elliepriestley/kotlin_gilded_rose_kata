@@ -18,27 +18,27 @@ class GildedRose(var items: List<Item>) {
                 else -> decreaseQuality(item)
             }
 
-
             //SELL IN
-
             if (item.name != sulfuras) {
-                item.sellIn -= 1
+                increaseSellIn(item)
             }
 
+
+
             if (item.sellIn < 0) {
-                if (item.name != brie) {
-                    if (item.name != backstage) {
-                        if (item.quality > 0 && item.name != sulfuras) {
-                            decreaseQuality(item)
-                        }
-                    } else {
-                        item.quality = 0
-                    }
-                } else if (item.quality < 50) {
-                    increaseQuality(item)
+
+                when (item.name) {
+                    brie -> increaseQuality(item)
+                    backstage -> item.quality = 0
+                    sulfuras -> item
+                    else -> decreaseQuality(item)
                 }
             }
         }
+    }
+
+    private fun increaseSellIn(item: Item) {
+        item.sellIn -= 1
     }
 
     private fun decreaseQuality(item: Item) {
