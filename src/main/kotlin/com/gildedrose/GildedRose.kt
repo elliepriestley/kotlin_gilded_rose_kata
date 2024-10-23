@@ -15,17 +15,21 @@ class GildedRose(var items: List<Item>) {
             }
 
             if (item.sellIn < 0) {
-                if (item.name != "Aged Brie") {
-                    if (item.name != "Backstage passes to a TAFKAL80ETC concert") {
-                        updateQualityOfSulfuras(item)
-                    } else {
-                        item.quality = 0
-                    }
-                } else {
-                    if (item.quality < 50) {
-                        item.quality += 1
-                    }
-                }
+                updateQualityIfNegativeSellIn(item)
+            }
+        }
+    }
+
+    private fun updateQualityIfNegativeSellIn(item: Item) {
+        if (item.name != "Aged Brie") {
+            if (item.name != "Backstage passes to a TAFKAL80ETC concert") {
+                updateQualityOfSulfuras(item)
+            } else {
+                item.quality = 0
+            }
+        } else {
+            if (item.quality < 50) {
+                item.quality += 1
             }
         }
     }
